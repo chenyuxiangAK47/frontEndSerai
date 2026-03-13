@@ -3,55 +3,6 @@ import React from "react";
 function CollectionSection() {
   return (
     <section className="section feature-section feature-purple collection-section">
-      <aside className="collection-sidebar floating-sidebar">
-        <div className="collection-sidebar-topbar">
-          <div className="collection-sidebar-brand">
-            <div className="collection-logo-mark" />
-            <span className="collection-brand-name">Serai AI</span>
-          </div>
-          <button className="collection-sidebar-close" type="button">
-            ×
-          </button>
-        </div>
-
-        <div className="collection-sidebar-main">
-          <div className="collection-sidebar-section-head">
-            <span>Collections</span>
-            <button className="collection-sidebar-plus" type="button">
-              +
-            </button>
-          </div>
-
-          <nav className="collection-sidebar-list">
-            <button className="collection-sidebar-item" type="button">
-              Inspo
-            </button>
-            <button className="collection-sidebar-item is-active" type="button">
-              Collection AW
-            </button>
-            <button className="collection-sidebar-item" type="button">
-              Collection SS
-            </button>
-            <button className="collection-sidebar-item" type="button">
-              Accessories
-            </button>
-          </nav>
-        </div>
-
-        <div className="collection-sidebar-assets">
-          <button
-            className="collection-asset-card collection-asset-add"
-            type="button"
-          >
-            +
-          </button>
-          <div className="collection-asset-card" />
-          <div className="collection-asset-card" />
-          <div className="collection-asset-card" />
-          <div className="collection-asset-card" />
-        </div>
-      </aside>
-
       <div className="collection-inner">
         <div className="collection-image-frame">
           <div className="collection-image-card">

@@ -6,7 +6,12 @@ function HeroSection() {
       <div className="hero-content hero-content-light">
         <div className="hero-title-block">
           <h1 className="hero-title-primary">Smarter creative decisions,</h1>
-          <h1 className="hero-title-secondary">powered by AI.</h1>
+          <h1 className="hero-title-secondary hero-title-with-sweep">
+            <span className="hero-highlight-base">powered by AI.</span>
+            <span className="hero-highlight-sweep" aria-hidden="true">
+              powered by AI.
+            </span>
+          </h1>
         </div>
         <div className="hero-media">
           <div className="hero-media-frame">
